@@ -39,7 +39,7 @@
     "node-addon-api": "^2.0.0"
   },
   "optionalDependencies": {
-    "@abandonware/bluetooth-hci-socket": "github:mkerix/node-bluetooth-hci-socket"
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5"
   },
   "devDependencies": {
     "async": "^3.2.0",
