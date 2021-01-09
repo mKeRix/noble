@@ -27,6 +27,7 @@ export declare function stopScanning(callback?: () => void): void;
 export declare function stopScanningAsync(): Promise<void>;
 export declare function reset(): void;
 export declare function resetBindings(): void;
+export declare function stopSocket(): void;
 
 export declare function on(event: "stateChange", listener: (state: string) => void): events.EventEmitter;
 export declare function on(event: "scanStart", listener: () => void): events.EventEmitter;
