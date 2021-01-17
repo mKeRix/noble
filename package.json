@@ -7,7 +7,7 @@
   "license": "MIT",
   "name": "@mkerix/noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
-  "version": "1.9.2-10.3",
+  "version": "1.9.2-10.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/mKeRix/noble.git"
