@@ -7,7 +7,7 @@
   "license": "MIT",
   "name": "@mkerix/noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
-  "version": "1.9.2-10.5",
+  "version": "1.9.2-11.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mKeRix/noble.git"
@@ -34,29 +34,29 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "^4.1.1",
+    "debug": "^4.3.1",
     "napi-thread-safe-callback": "0.0.6",
-    "node-addon-api": "^2.0.0"
+    "node-addon-api": "^3.1.0"
   },
   "optionalDependencies": {
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-5"
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-7"
   },
   "devDependencies": {
     "async": "^3.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-semistandard": "^15.0.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-semistandard": "^15.0.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-standard": "^5.0.0",
     "install": "^0.13.0",
-    "mocha": "^7.1.0",
-    "node-gyp": "^6.1.0",
-    "prettier": "^1.19.1",
+    "mocha": "^8.2.1",
+    "node-gyp": "^7.1.2",
+    "prettier": "^2.2.1",
     "should": "~13.2.3",
-    "sinon": "~9.0.0",
-    "ws": "^7.2.1"
+    "sinon": "~9.2.4",
+    "ws": "^7.4.2"
   },
   "scripts": {
     "lint": "eslint '**/*.js'",
